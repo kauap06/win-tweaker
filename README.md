@@ -1,8 +1,8 @@
-# Keka – Otimizador para Windows
+# OptimizerByKeka
 
 ## Visão Geral
 
-Keka é uma suíte de ajustes e automação para Windows que reúne scripts em **Python** e **PowerShell** para otimizar desempenho, remover bloatwares e facilitar tarefas avançadas do sistema. O projeto inclui também um executável pronto para uso.
+Software de ajustes e automação para Windows que reúne scripts em **Python** e **PowerShell** para otimizar desempenho, remover bloatwares e facilitar tarefas avançadas do sistema. O projeto inclui também um executável pronto para uso.
 
 ## Funcionalidades Principais
 
@@ -36,16 +36,6 @@ As funções abaixo executam utilitários localizados em `C:\\tweaker\\Programas
 - **Notificações nativas** (`show_notification`, `show_message`).
 - **Execução de scripts** e `.reg` com privilégios de administrador (`run_script_as_admin`).
 
-## Instalação
-
-```bash
-git clone https://github.com/<seu‑usuario>/keka.git
-cd keka
-```
-
-> No Windows, certifique‑se de ter **Python 3.10+** instalado se desejar usar os scripts.\
-> Para usuários finais, basta executar `OptimizerByKeka.exe`.
-
 ## Uso Rápido
 
 ```powershell
@@ -59,8 +49,4 @@ powershell -ExecutionPolicy Bypass -File tweaker\Debloat\Windows10DebloaterGUI.p
 ## Contribuindo
 
 Pull requests são bem‑vindos! Abra uma *issue* primeiro para discutir mudanças significativas.
-
-## Licença
-
-Distribuído sob a licença MIT. Consulte o arquivo **LICENSE** para mais detalhes.
 

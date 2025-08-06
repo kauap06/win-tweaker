@@ -1,5 +1,4 @@
-# OptimizerByKeka
-
+# WinTweaker
 ## Visão Geral
 
 Software de ajustes e automação para Windows que reúne scripts em **Python** e **PowerShell** para otimizar desempenho, remover bloatwares e facilitar tarefas avançadas do sistema. O projeto inclui também um executável pronto para uso.
